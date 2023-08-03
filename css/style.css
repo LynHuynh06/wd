@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; color: #666666; font-size: 16px;margin: 0
+}
+.img-100{
+	width: 100%
+}
+.img{
+	width: 150px; padding-top: 15px
+		}
+.menu{padding-top: 10px}
+.menu ul {
+	 padding: 0; margin: 0; list-style: none; display: flex
+}
+.menu ul li a{text-decoration: none; padding: 10px 30px; display: block; color: deeppink}
+.menu ul li a:hover{
+	color: #FFFFFF; background-color: deeppink
+}
+.icon header{
+	float: right; display: flex; padding-left: 20px
+}
+.icon{
+	padding-top: 15px; display: block;
+}
+.icon img{
+	margin-left: 20px
+}
+.gach-chan{
+	border-bottom: 2px solid #FF0004
+}
+.vien{
+	width: 100%; border: 1px solid #FF0004; text-align: center; padding: 10px
+}	
+.vien h4{
+	color: darkred; font-size: 18px
+}
+.vien a{
+	text-decoration: none; color: darkred
+}
+.vien a:hover{
+	color: darkred
+}
+.vien:hover{
+	box-shadow: 5px 5px 10px gray
+}
+.justify-between{
+	justify-content: space-between; color: darkred
+}
+.display-flex{
+	display: flex
+}
+.text-den{
+	color: #666666
+}
+.banner2{
+	width: 100%; min-height: 600px; background-image: url("../images/30years background.jpg"); background-size: cover; background-position: center; background-repeat: repeat
+}
+.vienbanner2{
+	padding: 50px; width: 100%; border: 1px solid #FFFFFF; text-align: center; padding: 50px
+}
+.vienbanner2:hover{
+	box-shadow: 5px 5px 10px gray
+}
+.vienbanner2 a{
+	color: darkred;
+}
+.vienbanner2 a:hover{
+	color: darkred }
+.banner2{
+	padding: 50px
+}
+.text-blogs{
+	color: darkred; text-align: center
+}
+.blog-text{
+	text-align: center;
+}
+.blog-text a{
+	color: darkred; text-decoration: none
+}
+.container-blog{
+	width: 80%; margin: 0 auto
+		
+}
+#newarrival .hinh{position: relative; overflow: hidden}
+#newarrival .icon{
+	position: absolute; width: 70%; height: 45px;justify-content: space-around; top:110%; left:15%; display: flex; transition: all 1s
+}
+.text-do{
+	color: darkred
+	
+}
+#newarrival .icon a{
+	width: 45px; height: 45px; display: flex; justify-content: center; align-items: center;text-decoration: none; background-color: #FFDCDD; border-radius: 50%; color: deeppink
+}
+#newarrival .icon a:hover{background-color: #878787; color: #FFDCDD}
+#newarrival .hinh:hover .icon{top:60%}
+
+#contact{
+	width: 100%; background: url("../images/16. RANGE HYDRA ( new model ).jpg"); background-repeat: no-repeat;background-size: cover; min-height: 650px;
+	background-position: center center
+}
+#contact h1{
+	padding-top: 20px
+}
+.shadow{
+	padding-top: 50px; width: 100%; min-height: 300px; padding:30px; box-shadow: 5px 5px 5px lightgray; border: 1px solid lightgray; display: flex; flex-direction: column; border-radius: 10px;
+}
+.mb-10{
+	margin-bottom: 10px;
+}
+.footer-button{
+	width: 100px;
+}
